@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="8dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="2dp">
+
+        <ImageView
+            android:id="@+id/home_imageView"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_navhome"/>
+
+        <RelativeLayout
+            android:id="@+id/relativeOne"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/home_imageView">
+
+            <TextView
+                android:id="@+id/address_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:id="@+id/price_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/address_tv"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/relativeOne">
+
+            <ImageView
+                android:id="@+id/fav_imageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="center"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/ic_fav"/>
+
+            <ImageView
+                android:id="@+id/share_imageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="center"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/ic_share"
+                android:layout_below="@id/fav_imageView"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

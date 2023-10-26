@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RH Real Estate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="home">Home</string>
+    <string name="favourites">Favourites</string>
+    <string name="contactus">Contact Us</string>
+    <string name="logout">Logout</string>
+    <string name="address">Address</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="locationonmap">Location on map</string>
+    <string name="enterYourName">Enter your name</string>
+    <string name="enterYourEmail">Enter your email</string>
+    <string name="enterYourContactNumber">Enter your contact number</string>
+    <string name="enterPassword">Enter password</string>
+    <string name="confirmPassword">Confirm password</string>
+    <string name="register">Register</string>
+    <string name="enterUsername">Enter your name</string>
+    <string name="login">Login</string>
+    <string name="alreadyRegister">Already registered? Login here.</string>
+    <string name="notRegistered">New user? register here.</string>
+    <string name="findHouse">Searching for your dream house? Find here.</string>
+    <string name="contactqueries">For further queries contact us at</string>
+    <string name="contactemail">rhrealestates@gmail.com</string>
+    <string name="contactphone">+1 519-200-3434</string>
+</resources>
